@@ -85,10 +85,10 @@ int validacion(int *pestado){
 	return *pestado;
 }
 void calificar_examen(int *pestado){
-    int verificar;
-    verificar=validacion(pestado);
+    int resultado;
+    resultado=validacion(pestado);
 	printf("***** CALIFICAR EXAMEN *****\n");
-	if(verificar == 1)
+	if(resultado == 1)
         {   printf("Examen calificado con exito \n");
             printf("\nCalificacion: 10 de 10 \n");
         }else{  printf("***** ERROR *****\n");
